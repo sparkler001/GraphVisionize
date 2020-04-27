@@ -1,0 +1,33 @@
+body {
+  display: grid;
+}
+
+/*-------------------------- header ----------------------------*/
+.header{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+/*----------------------- navigation bar -------------------------*/
+.nav-bar{
+  background: dodgerblue;
+  display: flex;
+  justify-content: center;
+}
+
+/*tabs in navigation bar*/
+.tab{
+  color: white;
+  text-align: center;
+  padding: 3px 13px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.tab >h2:hover{
+  background: royalblue;
+  color: white;
+}
+
