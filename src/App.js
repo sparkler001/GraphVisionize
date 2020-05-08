@@ -4,10 +4,7 @@ import './App.css'
 import Body from './Components/Body'
 import TabList from './Components/TabList'
 
-// change the header/background color...
-
-
-
+const firebase = require('firebase')
 
 export class App extends Component{
   constructor(){
@@ -41,6 +38,11 @@ export class App extends Component{
     {
       id:4,
       title: 'Projects'
+    },
+
+    {
+      id:5,
+      title: 'Message board'
     }
 
     ]

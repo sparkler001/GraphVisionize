@@ -19,36 +19,25 @@
   max-height: 100%;
 }
 
-/* ....Images page's css file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* -------- Images page's css file -------------------------- */
 .gallary{
-  padding:20px;
-  /*padding: 10px;*/
-  /*display: grid;*/
-  /*grid-gap: 4rem;*/
+  padding:10px;
 }
 
 .images{
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   display: grid;
   grid-gap: 4rem;
 }
 
-.MyComponent{
-  /*display: grid;*/
-  /*grid-gap: 4rem;*/
-}
 .MyComponent img {
-  /*margin: 20px;*/
-  /*width: 21.5%;*/
-  /*height: auto;*/
-
   width: 600px;
   height: auto;
   max-width: 100%;
   max-height: 100%;
 }
 
-/* ....Videos page's css file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* -------- Videos page's css file -------------------------- */
 .vid{
  padding: 20px;
 }
@@ -64,7 +53,7 @@
   /*display: flex;*/
 }
 
-/* ....Videos page's css file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* -------- Videos page's css file -------------------------- */
 
 .projectsP{
   padding: 10px;
@@ -96,7 +85,77 @@
   max-height: 100%;
 }
 
-/* ....TO TOP css file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* -------- Comment page's css file -------------------------- */
+
+.CommentPage {
+  display: flex;
+}
+
+.form {
+  overflow-y: auto;
+  width: 50%;
+}
+
+
+input[type=text] {
+  width: 99%;
+}
+
+textarea {
+  width: 99%;
+  height:60px;
+  font-size: 17px;
+  font-family: Comic Sans MS;
+}
+
+dot {
+  color: red;
+}
+
+select {
+  width: 100%;
+}
+
+
+#submit {
+  background-color: lightgrey;
+  color: black;
+  width:100%;
+  padding: 12px;
+  border-radius: 11px;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: Comic Sans MS;
+}
+
+#submit:hover {
+  background-color: grey;
+}
+
+
+
+/* --------------------------------------------- */
+
+.out_put {
+  overflow-y: auto;
+  width: 50%;
+  height: 65vh;
+  margin-left: 100px;
+}
+
+
+.date {
+  color: hotpink;
+  font-size: 17px;
+}
+
+
+.name {
+  color:black;
+  font-weight: bold;
+}
+
+/* -------- TO TOP css file -------------------------- */
 .bar {
   font-family: Comic Sans MS;
   padding: 1rem 5rem;
@@ -110,11 +169,6 @@
   border: 10px solid white;
   vertical-align: middle;
 }
-
-/*p {*/
-/*  !*border: 1px solid black;*!*/
-/*  padding: 2rem;*/
-/*}*/
 
 .scroll-to-top {
   position: fixed;
