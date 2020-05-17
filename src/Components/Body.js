@@ -4,6 +4,7 @@ import Images from './Images'
 import Videos from './Videos'
 import Projects from './Projects'
 import Comments from './Comment'
+import Movies from './Movie'
 
 export class Body extends Component{
 	displayContent =() => {
@@ -20,8 +21,11 @@ export class Body extends Component{
 		else if (activeTab==4)
 			return <Projects/>
 
-		else
+		else if (activeTab==5)
 			return <Comments/>
+		
+		else
+			return <Movies/>
 	}
   render(){
 

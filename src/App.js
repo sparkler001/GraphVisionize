@@ -43,6 +43,11 @@ export class App extends Component{
     {
       id:5,
       title: 'Message board'
+    },
+
+    {
+      id:6,
+      title: 'Movies'
     }
 
     ]
