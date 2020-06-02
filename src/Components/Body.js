@@ -5,6 +5,8 @@ import Videos from './Videos'
 import Projects from './Projects'
 import Comments from './Comment'
 import Movies from './Movie'
+import AddMovies from './Add_movie'
+import CreateLists from './Create_list'
 
 export class Body extends Component{
 	displayContent =() => {
@@ -24,8 +26,15 @@ export class Body extends Component{
 		else if (activeTab==5)
 			return <Comments/>
 		
-		else
+		else if (activeTab==6)
 			return <Movies/>
+
+		else if (activeTab==7)
+			return <AddMovies/>
+
+		else
+			return <CreateLists/>
+
 	}
   render(){
 
