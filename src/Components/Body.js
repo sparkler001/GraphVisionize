@@ -7,6 +7,7 @@ import Comments from './Comment'
 import Movies from './Movie'
 import AddMovies from './Add_movie'
 import CreateLists from './Create_list'
+import Graph from './Graph'
 
 export class Body extends Component{
 	displayContent =() => {
@@ -32,9 +33,10 @@ export class Body extends Component{
 		else if (activeTab==7)
 			return <AddMovies/>
 
-		else
+		else if (activeTab==8)
 			return <CreateLists/>
-
+		else 
+			return <Graph/>
 	}
   render(){
 

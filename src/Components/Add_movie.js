@@ -10,7 +10,7 @@ const firebase = require('firebase')
 export class Add_movie extends Component {
   constructor(props) {
     super();
-    this.state = { movId: '', src: '', title: '', director: '', imdb: '',plot: '',}
+    this.state = { movId: '', src: '', title: '', director: '', imdb: '',plot: '', actors: '',}
   }
 
   componentDidMount(){
@@ -32,12 +32,14 @@ export class Add_movie extends Component {
   }
 
   updateDb(obj) {
+    console.log(obj.state.actors);
     let formObj = {
       name: obj.state.title,
       src: obj.state.src,
       director: obj.state.director,
       imdb: obj.state.imdb,
       plot: obj.state.plot,
+      actors: obj.state.actors,
     };
     let ref = firebase.database().ref('movies');
     ref.once('value').then(function(snapshot) {
@@ -61,6 +63,7 @@ export class Add_movie extends Component {
         director: response.data.Director,
         imdb: response.data.imdbRating,
         plot: response.data.Plot,
+        actors: response.data.Actors,
       });
     })
     .then(function () {
