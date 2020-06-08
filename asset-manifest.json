@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/GraphVisionize/static/css/main.8e6effb1.chunk.css",
+    "main.js": "/GraphVisionize/static/js/main.581dba85.chunk.js",
+    "main.js.map": "/GraphVisionize/static/js/main.581dba85.chunk.js.map",
+    "runtime-main.js": "/GraphVisionize/static/js/runtime-main.c5a70375.js",
+    "runtime-main.js.map": "/GraphVisionize/static/js/runtime-main.c5a70375.js.map",
+    "static/js/2.274ad084.chunk.js": "/GraphVisionize/static/js/2.274ad084.chunk.js",
+    "static/js/2.274ad084.chunk.js.map": "/GraphVisionize/static/js/2.274ad084.chunk.js.map",
+    "index.html": "/GraphVisionize/index.html",
+    "precache-manifest.ce9100c7961c6341cdd04e31154778cc.js": "/GraphVisionize/precache-manifest.ce9100c7961c6341cdd04e31154778cc.js",
+    "service-worker.js": "/GraphVisionize/service-worker.js",
+    "static/css/main.8e6effb1.chunk.css.map": "/GraphVisionize/static/css/main.8e6effb1.chunk.css.map",
+    "static/js/2.274ad084.chunk.js.LICENSE.txt": "/GraphVisionize/static/js/2.274ad084.chunk.js.LICENSE.txt",
+    "static/media/animal-crossing-new-horizons-switch-hero.jpg": "/GraphVisionize/static/media/animal-crossing-new-horizons-switch-hero.7960636a.jpg",
+    "static/media/blue_ocean.jpg": "/GraphVisionize/static/media/blue_ocean.52359747.jpg",
+    "static/media/maldives_islands_vacation-wallpaper-2560x1600.jpg": "/GraphVisionize/static/media/maldives_islands_vacation-wallpaper-2560x1600.cec2c734.jpg",
+    "static/media/moraine_lake_sunrise-wallpaper-2560x1600.jpg": "/GraphVisionize/static/media/moraine_lake_sunrise-wallpaper-2560x1600.0b2f627f.jpg",
+    "static/media/mount_fuji_landscapes-wallpaper-2560x1600.jpg": "/GraphVisionize/static/media/mount_fuji_landscapes-wallpaper-2560x1600.77d2b4a4.jpg",
+    "static/media/mountain.jpg": "/GraphVisionize/static/media/mountain.c0242722.jpg",
+    "static/media/new-super-mario-bros-u-deluxe-switch-hero.jpg": "/GraphVisionize/static/media/new-super-mario-bros-u-deluxe-switch-hero.9ce5a803.jpg",
+    "static/media/pokemon-sword-switch-hero.jpg": "/GraphVisionize/static/media/pokemon-sword-switch-hero.e27049ed.jpg",
+    "static/media/spectacular_mountain_river-wallpaper-2560x1600.jpg": "/GraphVisionize/static/media/spectacular_mountain_river-wallpaper-2560x1600.1e335123.jpg",
+    "static/media/the-legend-of-zelda-breath-of-the-wild-switch-hero.jpg": "/GraphVisionize/static/media/the-legend-of-zelda-breath-of-the-wild-switch-hero.cc774eb5.jpg",
+    "static/media/virtual_reality_travel-wallpaper-2560x1600.jpg": "/GraphVisionize/static/media/virtual_reality_travel-wallpaper-2560x1600.3a52e729.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5a70375.js",
+    "static/js/2.274ad084.chunk.js",
+    "static/css/main.8e6effb1.chunk.css",
+    "static/js/main.581dba85.chunk.js"
+  ]
+}
